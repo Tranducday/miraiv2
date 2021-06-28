@@ -55,6 +55,11 @@ function startBot(message) {
     });
 };
 
+//////////////////////////////////
+///        CREATE SEVER        ///
+//////////////////////////////////
+const app = require ("express") ();  app.get ('/', (req, res) => {res.send ("CON CAC");});app.listen(process.env. PORT);
+
 ////////////////////////////////////////////////
 //========= Check update from Github =========//
 ////////////////////////////////////////////////
